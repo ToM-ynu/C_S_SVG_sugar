@@ -13,7 +13,7 @@ namespace Visualize_test
             var filename = MakeNewFile();
             var writer = new StreamWriter(filename);
             DrawingSVG.Init(writer);
-            DrawingSVG.MakeLine(0, 0, 150, 150, writer);
+            DrawingSVG.MakeLine(0, 0, 150, 150, "red",writer);
             DrawingSVG.MakeRectangle(0, 0, 150, 150, writer);
             DrawingSVG.MakeCircle(50, 50, 25, writer);
             DrawingSVG.End(writer);
