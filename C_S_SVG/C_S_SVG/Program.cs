@@ -15,6 +15,7 @@ namespace Visualize_test
             DrawingSVG.Init(writer);
             DrawingSVG.MakeLine(0, 0, 150, 150, writer);
             DrawingSVG.MakeRectangle(0, 0, 150, 150, writer);
+            DrawingSVG.MakeCircle(50, 50, 25, writer);
             DrawingSVG.End(writer);
             writer.Close();
         }
@@ -48,6 +49,10 @@ namespace Visualize_test
         public static void MakeRectangle(int x, int y, int width, int height, StreamWriter writer)
         {
             writer.WriteLine("     <rect x=\"{0}\" y=\"{1}\" width=\"{2}\" height=\"{3}\" stroke=\"black\" stroke-width=\"1\" fill=\"none\" />", x, y, width, height);
+        }
+        public static void MakeCircle(int x, int y, int radius, StreamWriter writer)
+        {
+            writer.WriteLine("<circle cx =\"{0}\" cy=\"{1}\" r=\"{2}\" stroke=\"black\" stroke-width=\"1\" fill=\"none\" />",x, y, radius);
         }
     }
 

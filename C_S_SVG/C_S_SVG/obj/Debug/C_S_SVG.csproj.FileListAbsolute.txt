@@ -1,0 +1,6 @@
+C:\Users\tomo8\Documents\Git\C_S_SVG_sugar\C_S_SVG\C_S_SVG\bin\Debug\C_S_SVG.exe.config
+C:\Users\tomo8\Documents\Git\C_S_SVG_sugar\C_S_SVG\C_S_SVG\bin\Debug\C_S_SVG.exe
+C:\Users\tomo8\Documents\Git\C_S_SVG_sugar\C_S_SVG\C_S_SVG\bin\Debug\C_S_SVG.pdb
+C:\Users\tomo8\Documents\Git\C_S_SVG_sugar\C_S_SVG\C_S_SVG\obj\Debug\C_S_SVG.csprojResolveAssemblyReference.cache
+C:\Users\tomo8\Documents\Git\C_S_SVG_sugar\C_S_SVG\C_S_SVG\obj\Debug\C_S_SVG.exe
+C:\Users\tomo8\Documents\Git\C_S_SVG_sugar\C_S_SVG\C_S_SVG\obj\Debug\C_S_SVG.pdb
